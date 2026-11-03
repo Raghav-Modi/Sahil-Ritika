@@ -1,6 +1,6 @@
 # Sahil & Ritika — wedding invitation
 
-A responsive Indian wedding invitation in pastel pink, white, and dusty rose. The sample includes Shri Ganesh and the Vakratunda shloka, Sahil and Ritika’s names and parents, vertically arranged Hindi event cards, a gently animated couple illustration, and a keyboard-accessible photo gallery.
+A responsive Indian wedding invitation in blush pink, sage, lavender, peach, ivory, and muted gold. The sample includes Shri Ganesh and the Vakratunda shloka, Sahil and Ritika’s names and parents, vertically arranged Hindi event cards, a gently animated couple illustration, and a keyboard-accessible photo gallery.
 
 Names, parents, dates, venues, and subevent timings are personalised. The couple illustration was generated from the user’s twirling photograph. Ganesh artwork was generated for the design sample. The gallery displays the three original WhatsApp JPEG photographs supplied in assets/. Event illustrations are local SVGs. There are no external runtime dependencies.
 
@@ -20,7 +20,7 @@ Check desktop and mobile layouts, the four Hindi event cards, gallery opening an
 
 ## Background effects and music
 
-Soft floating pink blossoms decorate the invitation and follow the Pause motion control and reduced-motion preference. The local `assets/wedding-flute-trimmed.mp3` is the user-supplied Namo Namo flute cover, looped quietly. A blush-pink envelope opens the invitation and starts the music within the visitor’s tap or keyboard activation; a fixed Play music / Mute music control remains available. Muting pauses playback and is remembered in session storage when supported. No external audio service is required.
+Soft floating pink blossoms decorate the invitation and follow the Pause motion control and reduced-motion preference. The local `assets/wedding-flute-trimmed.mp3` is the user-supplied Namo Namo flute cover, looped quietly. A pastel floral envelope opens the invitation and starts the music within the visitor’s tap or keyboard activation; a fixed Play music / Mute music control remains available. Muting pauses playback and is remembered in session storage when supported. No external audio service is required.
 
 The opening envelope blocks background interaction until opened and moves keyboard focus into the invitation afterward. Its opening animation respects reduced-motion settings. A previous session mute preference is retained. Without JavaScript the envelope stays hidden and the invitation remains accessible.
 
@@ -31,6 +31,6 @@ The opening envelope blocks background interaction until opened and moves keyboa
 - Bhaat–Mandhaa: Friday, 20 November 2026; Bhaat at 10 AM, Mandhaa at 11:30 AM, Priti Bhoj from 12:30 PM. Raghav Hospital, Baltana.
 - Vivah: Saturday, 21 November 2026; Baraat at 2 PM, Varmala at 3:30 PM, Phere at 5 PM, Priti Bhoj at 7 PM, Vidai at 10 PM. Red Bishop Convention Hall, Sector 1, Panchkula.
 
-Gallery captions are removed and frames use rose ornamental borders.
+Gallery captions are removed and frames use arched ornamental borders.
 
 The background track is trimmed at 3:01.4, at the pause preceding the final promotional segment, with a two-second fade-out. The original uploaded MP3 remains preserved in assets/wedding-flute.mp3.

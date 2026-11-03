@@ -48,3 +48,11 @@ body{background:#fffaf0}.header{background:#fffaf0;color:#6e5365;border-bottom:4
 .garland-bride{left:7%}.garland-groom{right:7%}
 @media(min-width:761px) and (max-width:1199px){.garland-figure{width:110px;top:150px;transform:none}.garland-bride{left:12%}.garland-groom{right:12%}}
 @media(max-width:760px){.garland-figure{width:clamp(58px,17vw,88px);top:125px;transform:none;opacity:.9}.garland-bride{left:10%}.garland-groom{right:10%}}
+
+/* Independent repeating edges keep each blossom round on wide and tall screens. */
+.hero:before,.envelope-screen:before,.blessings:before{content:'';display:block;position:absolute;inset:0;border:0;border-radius:0;pointer-events:none;z-index:0;background-image:url('assets/floral-edge-horizontal.svg'),url('assets/floral-edge-vertical.svg'),url('assets/floral-edge-vertical.svg');background-position:center top,left top,right top;background-size:240px 64px,64px 240px,64px 240px;background-repeat:repeat-x,repeat-y,repeat-y}
+.garland-groom{left:10%;right:auto}.garland-bride{left:auto;right:10%}
+/* Mirroring the pair keeps both garlands facing inward after changing sides. */
+.garland-figure{scale:-1 1}
+@media(min-width:761px) and (max-width:1199px){.garland-groom{left:15%;right:auto}.garland-bride{left:auto;right:15%}}
+@media(max-width:760px){.hero:before,.envelope-screen:before,.blessings:before{background-size:150px 40px,32px 120px,32px 120px}.garland-groom{left:13%;right:auto}.garland-bride{left:auto;right:13%}}

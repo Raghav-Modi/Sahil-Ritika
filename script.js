@@ -44,7 +44,7 @@ document.querySelectorAll('.hero, .welcome, .celebrations, .gallery-section, .bl
   for (let index = 0; index < count; index++) {
     const star = document.createElement('span');
     star.className = 'floating-star';
-    star.textContent = index % 3 === 0 ? '✧' : '✦';
+    star.textContent = index % 3 === 0 ? '❀' : '✿';
     // Keep most of the hero's ornaments to the sides of the invitation.
     const left = sectionIndex === 0
       ? (index % 2 ? 77 + (index * 7 % 20) : 3 + (index * 7 % 20))

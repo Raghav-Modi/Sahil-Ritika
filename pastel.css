@@ -1,0 +1,26 @@
+/* Blush stationery, white paper, and dusty-rose botanical details. */
+:root{--maroon:#fbe7ee;--red:#a34e70;--gold:#ad5c7c;--cream:#fffdfd;--ink:#63364c;--muted:#805e6e;--line:#e9c4d3}
+body{background:#fffdfd}a:focus-visible,button:focus-visible{outline-color:#a34e70}
+.header{background:#fffafc;color:#78445b;border-color:#eed4df}.header nav a:hover{color:#a34e70}.header>button{border-color:#dfb4c6;border-radius:20px}
+.hero,.envelope-screen{background:radial-gradient(ellipse at 50% 35%,#fffdfd 0%,#fcecf2 55%,#f5d9e5 100%);color:#63364c}
+.hero:before,.hero:after,.envelope-screen:before,.envelope-screen:after{border-color:#dca8bd66;border-radius:16px}
+.hero h1,.envelope-screen h2{color:#88445f;text-shadow:none}.hero h1 .weds,.envelope-screen h2 .weds{color:#a15b78}
+.sacred,.shloka,.hero-blessing,.landing-blessing,.landing-nimantran{color:#885269}.ornament,.dark,.landing-ornament{color:#ac6481}.hero-message{color:#8b5b71}
+.ganesh{border-color:#d8adbf;outline-color:#e9c6d5;box-shadow:0 0 0 10px #fff8fb88,0 10px 40px #b7688a15}
+.parents{border-color:#dfb6c8;background:linear-gradient(90deg,transparent,#ffffff99,transparent);border-radius:12px}.parents strong{color:#693e52}.parent-label{color:#916379}.parent-and,.parents>.family-flower{color:#af6d89;text-shadow:none}
+.save-the-date{border-color:#dfb6c8;background:linear-gradient(90deg,transparent,#ffffffb0,transparent)}.save-the-date strong{color:#93516f}.save-the-date time{color:#81445f;text-shadow:none}
+.button.gold{background:#a65376;color:#fff;border-color:#a65376;border-radius:30px;box-shadow:0 6px 20px #aa5e7c22}.button.gold:hover{background:#8e3f61}
+.hanging span{background-image:radial-gradient(circle,#fffafc 35%,#e3b4c8 53%,transparent 65%)}.hanging span:after{content:'❀';color:#bd7797}.garland-ornaments{display:none}
+.hero-corners span,.landing-corners span{background-image:url('assets/pink-floral-corner.svg');opacity:.85}
+.floating-star,.hero .floating-star,.welcome .floating-star,.celebrations .floating-star,.gallery-section .floating-star,.envelope-screen .floating-star{color:#bd7395;text-shadow:none}.stage-star{color:#c1819e}
+.welcome .eyebrow,.section-heading .eyebrow{color:#995470}.welcome h2 em,.section-heading h2 em,.handwritten{color:#a75c7c}.art-caption{color:#8b6374}
+.couple-window{background:#fceaf1;border-color:#e4bed0;box-shadow:inset 0 0 0 9px #fffdfd,inset 0 0 0 10px #ecd0dd;border-radius:180px 180px 24px 24px}.couple-window:after{border-color:#e7bfd1}
+.celebrations{background-color:#fdf0f5;background-image:radial-gradient(#d59ab633 .7px,transparent .7px);border-color:#efdae3}
+.event,.vivah{background:#fffdfd;border-color:#e8c6d6;border-radius:22px;box-shadow:0 10px 30px #a6577b0a}.event-picture{background:#f8e0eb}.image-label{color:#694053;background:linear-gradient(transparent,#fff8fbee);padding-top:55px}
+.event-label,.event-subtitle,.vivah .event-subtitle,.vivah .event-label{color:#9b5d79}.event h3,.vivah h3{color:#88445f}.event-description,.vivah .event-description{color:#805e6e}.details,.vivah .details{border-color:#ecd4df}.details dt,.vivah .details dt{color:#96617a}.details dd,.vivah .details dd{color:#633f51}.schedule-entry,.vivah .schedule-entry{border-color:#efdae3}
+.photo{background:#fff;border:1px solid #e0b1c6;border-radius:12px;padding:10px;box-shadow:0 0 0 3px #fff,0 0 0 4px #f0dce5,0 12px 30px #ad6a8720}.photo-art{border-radius:5px}.photo:before,.photo:after{border-color:#d59ab5}
+.blessings{background:radial-gradient(ellipse at top,#fffafd,#f8e2ec 85%);color:#78445d;border-color:#fbeaf1;outline-color:#e0b3c7}.blessings .eyebrow,.blessings>p:not(.eyebrow):not(.closing),.closing{color:#926078}.closing span{color:#8b4d69}.mini-couple{background:#fffdfd;border:1px solid #e5c3d3}footer{color:#8f6579}
+dialog{background:#fffafd;border-color:#dfb6c9;border-radius:18px;box-shadow:0 25px 100px #63364c33}dialog::backdrop{background:#53334699}.dialog-controls button{border-radius:20px}
+.music-toggle{background:#fffafcf5;color:#8e4767;border-color:#deb0c5;box-shadow:0 5px 20px #ae668722}.music-toggle:hover{background:#fbe6ef}.music-toggle[aria-pressed="true"]{border-color:#a65376}
+.envelope-art{background:#f3ccdD;border-color:#d3a0b6;box-shadow:0 24px 65px #b467892e,0 0 50px #fff8fb88;border-radius:10px}.envelope-pocket{background:linear-gradient(135deg,#f9dce8,#edbfd3 65%,#e6aec7);border-bottom-color:#cf93ad}.envelope-pocket:after{border-color:#fff8fbaa;border-radius:5px}.envelope-flap{background:linear-gradient(150deg,#fff4f8,#f3d0df 65%,#e6b5ca)}.envelope-letter{background:#fffdfd;color:#8c4b68;border-color:#e1bbcd}.envelope-letter>span{color:#95637b}.envelope-seal{background:radial-gradient(circle at 35% 30%,#fff,#f8e4ee);border-color:#c98aa6;color:#a35779;box-shadow:0 3px 14px #ae6b8833,inset 0 0 0 3px #fff7fb,inset 0 0 0 4px #e0b4c8}.envelope-button:focus-visible{outline:3px solid #a65376}.landing-halo{border-color:#cf96af25;box-shadow:0 0 0 16px #ffffff22,0 0 0 17px #d9abc022,0 0 0 45px #ffffff22,0 0 0 46px #d9abc015}
+@media(max-width:760px){.event{border-radius:18px}.hero-corners span,.landing-corners span{opacity:.7}}

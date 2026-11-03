@@ -1,6 +1,6 @@
-# Ritika & Sahil — wedding invitation
+# Sahil & Ritika — wedding invitation
 
-A responsive Indian wedding invitation in maroon, red, and antique gold. The sample includes Shri Ganesh and the Vakratunda shloka, Ritika and Sahil’s names and parents, vertically arranged Hindi event cards, a gently animated couple illustration, and a keyboard-accessible photo gallery.
+A responsive Indian wedding invitation in maroon, red, and antique gold. The sample includes Shri Ganesh and the Vakratunda shloka, Sahil and Ritika’s names and parents, vertically arranged Hindi event cards, a gently animated couple illustration, and a keyboard-accessible photo gallery.
 
 Names, parents, dates, venues, and subevent timings are personalised. The couple illustration was generated from the user’s twirling photograph. Ganesh artwork was generated for the design sample. The gallery displays the three original WhatsApp JPEG photographs supplied in assets/. Event illustrations are local SVGs. There are no external runtime dependencies.
 
